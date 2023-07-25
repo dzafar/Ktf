@@ -1,4 +1,10 @@
+<!DOCTYPE html>
+
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+
 <header class="wrapperHead">
+	
 	<div id="main_header">
 		<nav class="menu">
 			<ul class="flex">
@@ -8,9 +14,9 @@
 				<li class="menu_item">
 					<a href="">Обо мне</a>
 					<ul class="submenu">
-						<li><a href="">Создание сайтов</a></li>
-						<li><a href="">Интернет-маркетинг</a></li>
-						<li><a href="">Продвижение видео</a></li>
+						<li class="submenu1"><a href="">Создание сайтов</a></li>
+						<li class="submenu1"><a href="">Интернет-маркетинг</a></li>
+						<li class="submenu1"><a href="">Продвижение видео</a></li>
 					</ul>
 				</li>
 
@@ -18,14 +24,14 @@
 				<li class="menu_item"><a href="">Профиль</a></li>
 				<li class="menu_item"><a href="">Поиск по блогу</a></li>
 				<li>		
-					<form method="get">
-						<input type="text" name="" placeholder="Поиск по блогу">
+					<form  method="get">
+						<input class="metod-search" type="text" name="" placeholder="Поиск по блогу">
 						<button>
 							<i class="fas fa-search"></i>
 						</button>
 					</form>
 				</li>
-				<li>
+				<li >
 					<i class="fas fa-filter" onclick="sub_header_show()"></i>
 				</li>
 			</ul>
@@ -137,3 +143,4 @@
 		</form>
 	</div>
 </header>
+</html>

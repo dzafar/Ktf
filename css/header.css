@@ -1,0 +1,46 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.flex{
+padding-left: 13px;
+
+}
+
+.menu {
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu_item{
+    font-size: 11px;
+    font-weight: 400;
+    justify-content: center;
+    padding-top: 14px;
+    padding-bottom: 13px;
+   
+}
+
+.menu_item:hover{
+    background: #3137c9;
+    transition: 0.5s;
+}
+
+
+.submenu1{
+    margin-bottom: 5px;
+}
+
+.metod-search{
+ padding-top: 14px;
+ padding-bottom: 13px;
+}
+
+
