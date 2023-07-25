@@ -1,0 +1,37 @@
+@font-face {
+   	font-family: Italic-Custom2;
+   	src: url(DSEG7Classic-Italic-Custom2.woff2);
+}
+@font-face {
+   	font-family: Italic;
+   	src: url(Inter-Italic.woff2);
+}
+@font-face {
+   	font-family: Medium;
+   	src: url(Inter-Medium.woff2);
+}
+@font-face {
+   	font-family: MediumItalic;
+   	src: url(Inter-MediumItalic.woff2);
+}
+@font-face {
+   	font-family: Regular;
+   	src: url(Inter-Regular.woff2);
+}
+@font-face {
+   	font-family: SemiBold;
+   	src: url(Inter-SemiBold.woff2);
+}
+@font-face {
+   	font-family: SemiBoldItalic;
+   	src: url(Inter-SemiBoldItalic.woff2);
+}
+
+@font-face {
+   	font-family: RobotoMono;
+   	src: url(RobotoMono-Regular.woff2);
+}
+@font-face {
+   	font-family: SourceCodePro;
+   	src: url(SourceCodePro-Medium.woff2);
+}

@@ -1,0 +1,199 @@
+body{
+	height: 100%;
+	min-height: 100vh;
+	background: #181818;
+	color: white;
+}
+
+header *, .menu , .menu * , .filter , .slider {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;      
+}
+
+hr{
+	background: white;
+	height: 1px;
+	margin: 2px 0 6px 0;
+}
+
+.hidden{
+	display: none;
+	display: hidden;
+}
+
+.block{
+	display: block;
+}
+
+.menu *{
+	white-space: nowrap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 13px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.transparent{
+	background: transparent;
+	color: transparent;
+}
+
+.wrapper{
+	background: #0D0D0D;
+	margin: 0 auto;
+	margin-top: 60px;
+	width: 600px;
+}
+
+.wrapperHead, .wrapperFooter{
+	background: #0D0D0D;
+	margin: 0 auto;
+	width: 700px;
+}
+
+.wrapperFooter{
+	margin-top: 60px;
+}
+
+.menu li:hover .submenu{
+	display: block;
+	transition-delay: 1s linear;
+}
+
+#sub_header .flex{
+	justify-content: space-between;	
+	padding: 0 20px;
+}
+
+#sub_header .search_block{
+	background: #0D0D0D;
+	padding: 0;
+	justify-content: flex-start;
+}
+
+#sub_header .flex div{
+	display: block;
+}
+
+.menu .flex{
+	justify-content: space-between;
+}
+
+.submenu{
+	position: absolute;
+	background: #3137C9;
+	transition-delay: 0.5s linear;
+	display: none;
+}
+
+.input:checked+i{
+	display: inline-block;
+	color: #3137C9;
+}
+
+input[type="text"] {
+	background: #202020;
+	width: 90%;
+}
+
+.flex.search_block label {
+	padding: 0 20px;
+}
+.flex.search_block .fa-filter{
+	margin-left: auto;
+}
+
+.FilterButton{
+	padding: 0 10px;
+}
+div#main_header {
+	background: #0D0D0D;
+}
+
+.menu li.menu_item:hover {
+	background: #3137C9;
+}
+
+.search_block{
+	white-space: nowrap;
+}
+
+.flex.search_block {
+	flex-basis: 100%;
+}
+
+i.fas.fa-filter {
+	padding: 0 10px 0 0;
+}
+
+.slider__item > *{
+	background: #b65697ba;
+	min-height: 200px;
+	height: 200px;
+}
+
+.slider__item h3 {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.slider__item span.date {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.slider__item img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: auto;
+}
+
+.fa-camera:before {
+    color: gray;
+}
+
+.fa-location-arrow:before {
+    display: block;
+    transform: rotate(45deg);
+}
+
+.post_tags, .post{
+	position: relative;
+}
+
+.post_tags ul li{
+	/* color: red; */
+	list-style: disc;
+	margin: 0 0 0 28px;
+}
+
+.right_ancor, .right_ancor:visited{
+	position: absolute;
+	right: 0;
+	color: blue;
+}
+
+.Interesting{
+	margin: 60px 0;
+}
+
+.Interesting_postname{
+	color: #F3EBA2;
+}
+
+.Interesting .flex{
+	flex-wrap: wrap;
+}
+
+.Interesting .flex > *{
+	flex-basis: 50%;
+}
